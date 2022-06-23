@@ -1,0 +1,182 @@
+.nav-bar{
+    width: 100%;
+    height: 79px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+
+}
+.container{
+    width: 80%;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.nav-link-text{
+    color: white;
+    text-decoration: none;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.nav-link-text:hover{
+    color: #0bed12;
+}
+.main-logo{
+    width: 15%;
+}
+.nav-links{
+    width: 41%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone img{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.phone{
+    width: 100%;
+    height: 530px;
+    background-color: aquamarine;
+}
+.phone-button{
+    position: relative;
+    /* toposip: -92px; */
+    width: 189px;
+    z-index: 1;
+    bottom: 209px;
+    left: 553px;
+    border-style: none;
+    border-radius: 31px;
+    font-size: 17px;
+    font-weight: 700;
+    height: 49px;
+    background-color: white;
+    transition: 50ms;
+}
+.phone-button:hover{
+
+    transform: scale(1.05);
+}
+.why-spotify{
+    width: 100%;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.why-spotify-item1{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-spotify-item2{
+    width: 80%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services-img{
+    width: 131px;
+   align-self: center;
+}
+.why-spotify-services{
+    width: 23%;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.free{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: blueviolet;
+    color: white;
+}
+.free1{
+    text-align: center;
+    margin-left: 440px;
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.enquiry{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.enquiry1{
+    display: flex;
+    font-size: 45px ;
+    justify-content: center;
+    
+}
+.enquiry2{
+    width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.enquiry-2{
+    display: flex;
+    width: 80%;
+    font-size: 20px;
+}
+.ready{
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.ready1{
+    display: flex;
+    font-size: 60px;
+    color: white;
+    margin-left: 11cm;
+    align-items: center;
+    font-weight: 700;
+}
+.button{
+    position: relative;
+    /* toposip: -92px; */
+    width: 189px;
+    z-index: 1;
+    bottom: 35px;
+    left: 553px;
+    border-style: none;
+    border-radius: 31px;
+    font-size: 17px;
+    font-weight: 700;
+    height: 49px;
+    background-color: white;
+    transition: 50ms;
+}
+.button:hover{
+
+    transform: scale(1.05);
+}
